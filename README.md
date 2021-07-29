@@ -540,11 +540,12 @@ Now that you’ve got the integration built out and the app is developed as well
 
 To do this, type __`npm i`__ in the terminal and then __’npm run build`__ and  __’npm run start`__. The app should now be deployed. 
 
-Now, head over to the Intercom [Developer Hub](https://app.intercom.com/a/apps/opk5tlz2/developer-hub). You will want to [launch a test conversation](https://app.intercom.com/a/apps/opk5tlz2/test-conversation). 
+You need to launch a test conversation with Dasha. It’s a two step process. Step 1 - head over to the Intercom [Developer Hub](https://developers.intercom.com) > Your apps. 
 
-Now, just send a message from the chat interface. Give it a few minutes and you will get a reply from Dasha AI. In this way you can test any conversation that your users can have with Dasha AI. 
+You want to copy the number after __/apps__ - this is your Intercom application ID. 
+
+Now, copy and paste this line into your address bar https://app.intercom.com/a/apps/yourAppIDgoesHere/test-conversation and replace *yourAppIDgoesHere* with your application ID. I know, it’s complicated and, yes this is the solution recommended by Intercom.
+
+Now, you will be able to send a message from the chat interface. Give it a few minutes and you will get a reply from Dasha AI. In this way you can test any conversation that your users can have with Dasha AI. 
 
 Was this tutorial helpful? Let us know in our [developer community](http://community.dasha.ai).
-
-
- 
