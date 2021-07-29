@@ -1,0 +1,97 @@
+{
+  "version": "v2",
+  "intents": {
+    "yes": {
+      "includes": [
+        "yes",
+        "correct",
+        "sure",
+        "absolutely",
+        "right",
+        "yep"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "no": {
+      "includes": [
+        "no",
+        "definitely not",
+        "wrong",
+        "incorrect",
+        "I do not",
+        "I don't",
+        "I would not",
+        "I wouldn't",
+        "nope"
+      ],
+      "excludes": [
+        "yes"
+      ]
+    },
+    "what_can_you_do": {
+      "includes": [
+        "What can you do",
+        "What problem you can solve",
+        "Get your action list",
+        "Get action list",
+        "What you can",
+        "Say me what action you can do",
+        "How you can help me",
+        "Action list",
+        "What kind of problem you can solve",
+        "What actions you have"
+      ],
+      "excludes": []
+    },
+    "hello": {
+      "includes": [
+        "Hello",
+        "Hi",
+        "Greeting",
+        "Good morning",
+        "Good evening",
+        "Good night"
+      ],
+      "excludes": []
+    },
+    "have_problem": {
+      "includes": [
+        "I have a problem",
+        "Can you help me",
+        "I need help",
+        "help me"
+      ],
+      "excludes": []
+    },
+    "problem_with_phone": {
+      "includes": [
+        "I can't seem to make a phone call",
+        "I have a problem with my phone",
+        "I'm afraid I broke my phone",
+        "Phone problem"
+      ],
+      "excludes": []
+    },
+    "problem_with_manager": {
+      "includes": [
+        "I had a problem with your manager",
+        "Your manager was rude",
+        "Rude manager",
+        "Problem with manager"
+      ],
+      "excludes": [
+        "I have some problem with my phone",
+        "The phone problem",
+        "Problem with phone",
+        "I broken my phone",
+        "My phone was broken",
+        "The phone went bad",
+        "I have problem with phone",
+        "Phone cracked",
+        "Sure. I broke my phone"
+      ]
+    }
+  }
+}

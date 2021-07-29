@@ -1,0 +1,194 @@
+{
+  "node::new_node0": {
+    "common.position": {
+      "x": -174.09711381425046,
+      "y": -142.91706300534042
+    }
+  },
+  "node::new_node1": {
+    "common.position": {
+      "x": -135.9309474043363,
+      "y": -87.6495632422903
+    }
+  },
+  "node::service_rating": {
+    "common.position": {
+      "x": 640.7119021134598,
+      "y": 240.26696329254747
+    }
+  },
+  "node::root": {
+    "common.position": {
+      "x": 1200,
+      "y": 43
+    }
+  },
+  "node::recommend_rating": {
+    "common.position": {
+      "x": 210.99634514539937,
+      "y": 347.0522803114574
+    }
+  },
+  "node::intro": {
+    "common.position": {
+      "x": 600,
+      "y": 189
+    }
+  },
+  "node::disagree": {
+    "common.position": {
+      "x": 1800,
+      "y": 262
+    }
+  },
+  "node:nps_rating:leave_block": {
+    "common.position": {
+      "x": 517.1018921454278,
+      "y": -48.87229677342731
+    }
+  },
+  "node:nps_rating:ask_rating": {
+    "common.position": {
+      "x": -83.30933223375379,
+      "y": 503.37173463618376
+    }
+  },
+  "node:nps_rating:ask_comment": {
+    "common.position": {
+      "x": 159.36625394419275,
+      "y": -176.23528017440754
+    }
+  },
+  "node:nps_rating:about_scale": {
+    "common.position": {
+      "x": -197.3554558779887,
+      "y": 139.30383557535262
+    }
+  },
+  "node::repeat_or_ping_hangup": {
+    "common.position": {
+      "x": 600,
+      "y": 1278
+    }
+  },
+  "node::dont_understand_hangup": {
+    "common.position": {
+      "x": 600,
+      "y": 863
+    }
+  },
+  "node::dont_understand_hangup_params": {
+    "common.position": {
+      "x": 0,
+      "y": 697
+    }
+  },
+  "node::dont_understand": {
+    "common.position": {
+      "x": 0,
+      "y": 863
+    }
+  },
+  "node::dont_understand_preprocessor": {
+    "common.position": {
+      "x": 0,
+      "y": 1029
+    }
+  },
+  "node::i_am_robot": {
+    "common.position": {
+      "x": 0,
+      "y": 697
+    }
+  },
+  "node::repeat_preprocessor": {
+    "common.position": {
+      "x": 0,
+      "y": 843
+    }
+  },
+  "node::repeat_hangup_params": {
+    "common.position": {
+      "x": 0,
+      "y": 989
+    }
+  },
+  "node::repeat": {
+    "common.position": {
+      "x": 0,
+      "y": 1155
+    }
+  },
+  "node::ping": {
+    "common.position": {
+      "x": 0,
+      "y": 1341
+    }
+  },
+  "node::calculate": {
+    "common.position": {
+      "x": 1200,
+      "y": 189
+    }
+  },
+  "node::agree": {
+    "common.position": {
+      "x": 1800,
+      "y": 116
+    }
+  },
+  "node::what_can_you_do": {
+    "common.position": {
+      "x": 0,
+      "y": 73
+    }
+  },
+  "node::problem": {
+    "common.position": {
+      "x": 600,
+      "y": 385
+    }
+  },
+  "node::problem_with_manager": {
+    "common.position": {
+      "x": 1200,
+      "y": 229
+    }
+  },
+  "node::who_are_you": {
+    "common.position": {
+      "x": 0,
+      "y": 219
+    }
+  },
+  "node::problem_dig": {
+    "common.position": {
+      "x": 0,
+      "y": 339.285773803634
+    }
+  },
+  "node::hello": {
+    "common.position": {
+      "x": 0,
+      "y": 551
+    }
+  },
+  "node::hub": {
+    "common.position": {
+      "x": 1800,
+      "y": 331.0939880949281
+    }
+  },
+  "node::problem_with_phone": {
+    "common.position": {
+      "x": 1200,
+      "y": 415
+    }
+  },
+  "node::swear_words": {
+    "common.position": {
+      "x": 0,
+      "y": 1507
+    }
+  }
+}
