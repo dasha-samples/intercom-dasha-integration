@@ -6,7 +6,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@dasha.ai/sdk": "^0.4.0",
+    "@dasha.ai/sdk": "^0.6.5",
     "@types/node": "^12.19.7",
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
