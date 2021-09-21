@@ -26,7 +26,7 @@ async function main()
     console.error(e);
   } finally 
   {
-    console.log("Fuck. Something is wrong.");
+    console.log("Something is wrong.");
     application.dispose();
   }
 }
