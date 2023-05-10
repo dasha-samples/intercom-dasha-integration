@@ -226,9 +226,9 @@ export class IntercomClient implements IIntercomClient {
       options.startOptions === undefined
         ? 0
         : await this.getLastTime(
-            conversationId,
-            options.startOptions.skipLastMessage
-          ),
+          conversationId,
+          options.startOptions.skipLastMessage
+        ),
       options.periodReading
     );
 
@@ -448,14 +448,14 @@ export class IntercomClient implements IIntercomClient {
       return dasha.chat.connect(dashaChat);
     };
 
-    application.queue.on("ready", async (id, conv) => {
+    application.queue.on("ready", async (id: string, conv: any) => {
       this._logger?.info(`Got new starting conversation ('${id}').`);
 
       // Checking that the conversation belongs to this intercom client instance
       if (!conversations.has(id)) {
         this._logger?.info(
           `Try starting conversation from not this instance of intercom client new conversation ('${id}'). ` +
-            `Conversation was been rejected`
+          `Conversation was been rejected`
         );
         return;
       }
@@ -469,13 +469,13 @@ export class IntercomClient implements IIntercomClient {
         continueConversation: conversations.get(id)?.open,
       };
 
-      conv.on("transcription", async (transcription) => {
+      conv.on("transcription", async (transcription: any) => {
         if (this.onTransctiption) {
           await this.onTransctiption(conversations.get(id)!, transcription);
         }
       });
 
-      conv.on("debugLog", async (x:any) => {
+      conv.on("debugLog", async (x: any) => {
         if (x?.msg?.msgId === "RecognizedSpeechMessage") {
           const logEntry = x?.msg?.results[0]?.facts;
           console.log(JSON.stringify(logEntry, undefined, 2) + "\n");
@@ -506,8 +506,8 @@ export class IntercomClient implements IIntercomClient {
         }
       }
     });
-    
-    application.queue.on("timeout", async (id) => {
+
+    application.queue.on("timeout", async (id: string) => {
       try {
         this._logger?.info(`Conversation was timed out ('${id}').`);
         if (this.onTimedOutJob) {
@@ -517,7 +517,7 @@ export class IntercomClient implements IIntercomClient {
         conversations.delete(id);
       }
     });
-    application.queue.on("rejected", async (id, error) => {
+    application.queue.on("rejected", async (id: string, error: any) => {
       try {
         this._logger?.info(`Conversation was rejected ('${id}').`);
         if (this.onRejected) {
